@@ -33,10 +33,14 @@ function deleteLastCharacter() {
     display.value = currentValue.slice(0, -1); 
 }
 
-if (dark) {
-  var a = document.getElementById("ac")
-  a.style.color = "white"
+function darks(color){
+    document.body.style.background = color
 }
+
+// if (dark) {
+//   var a = document.getElementById("ac")
+//   a.style.color = "white"
+// }
 
 
 
