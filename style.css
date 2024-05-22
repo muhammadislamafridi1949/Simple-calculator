@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #e8f5e9; */
-background-color: black;
+background-color: #e8f5e9;
 }
 
 
@@ -18,7 +18,7 @@ background-color: black;
     /* background-color: aqua ; */
     height: 20vh;
     gap: 0.5vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .childcolor-div{
@@ -30,9 +30,9 @@ background-color: black;
     width: 44px;
     /* align-items: center; */
     /* justify-content: center; */
-    background-color: rgba(96, 110, 110, 0.408);
+    background-color: rgb(249, 255, 255);
     border-radius: 7px;
-    padding: auto;
+    padding-top: 2px;
 }
 
 .span1{
@@ -61,7 +61,7 @@ table {
     border-spacing: 10px;
     height: 35%;
     border: 3px solid black;
-    background-color: orange;
+    background-color: #e8f5e9;
     border-radius: 14px;
 }
 
@@ -71,7 +71,8 @@ table {
     height: 100%;
     border: none;
     font-size: 35px;
-    /* background-color: aqua; */
+    background-color: #e3ede4;
+    border-radius: 10px;
 }
 
 .btn {
@@ -81,7 +82,7 @@ table {
     text-align: center;
     border-radius: 15px;
     cursor: pointer;
-
+    
 }
 
 .btn3,
@@ -89,13 +90,13 @@ table {
 .btn11,
 .btn15,
 .btn19 {
-    background-color: rgb(15, 150, 222);
+    background-color: rgba(0, 0, 255, 0.841);
     color: white;
 }
 
 .btn1,
 .btn2 {
-    background-color: rgba(86, 73, 73, 0.285);
+    background-color: rgba(195, 194, 194, 0.923);
 }
 
 .btn4,
@@ -110,9 +111,35 @@ table {
 .btn16,
 .btn17,
 .btn18 {
-    background-color: rgb(215, 215, 215);
-
+    background-color: rgb(249, 255, 255);
+    
 }
 .btn:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.mystyle{
+    color: white;
+    background-color: rgba(207, 187, 187, 0.692);
+}
+
+.mstyle{
+    color: white;
+    background-color: rgb(15, 150, 222); 
+}
+
+.input1{
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+.color2{
+    background-color: rgb(47, 43, 43);
+}
+
+@media screen and (max-width: 450px) {
+    table{
+        border: none;
+        width: 100%;
+    }
 }

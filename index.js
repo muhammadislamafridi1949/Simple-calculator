@@ -1,20 +1,28 @@
 var display = document.getElementById("table");
 function dependOnclIck(input) {
-    display.value += input;
-};
+    if (input === '%') {
+        display.value = eval(display.value) / 100;
+    } else {
+        display.value += input;
+    }
+}
 function AllcLear() {
     display.value = "";
 };
 
 function dark(color) {
     document.body.style.backgroundColor = color
-    var a = document.getElementById("btns")
-    a.style.color = "black"
-}
-var elements = document.querySelectorAll('.btn')
-elements.forEach(element =>  {
-    element.style.color
+    const element = document.querySelectorAll(".btn").forEach(element => {
+        element.classList.remove("mystyle");    
+ } )
+ document.querySelectorAll(".b").forEach(element => {
+    element.classList.remove("mstyle");
 })
+ const a =  document.getElementById("table")
+ a.classList.remove("input1")
+ document.getElementById("maintable").style.backgroundColor = "#e8f5e9" 
+
+}
 
 function cacuLate() {
     try {
@@ -33,25 +41,15 @@ function deleteLastCharacter() {
     display.value = currentValue.slice(0, -1); 
 }
 
-function darks(color){
+function darks(color) {
     document.body.style.background = color
-}
-
-// if (dark) {
-//   var a = document.getElementById("ac")
-//   a.style.color = "white"
-// }
-
-
-
-
-
-// function removeLastDigit() {
-//     var display = document.getElementById('display');
-//     var currentValue = display.textContent;
-//     if (currentValue.length === 1) {
-//         display.textContent = '0';
-//     } else {
-//         display.textContent = currentValue.slice(0, -1);
-//     }
-// }
+     document.querySelectorAll(".bt").forEach(element => {
+        element.classList.add("mystyle");
+    })
+    document.querySelectorAll(".b").forEach(element => {
+        element.classList.add("mstyle");
+    })
+    const a =  document.getElementById("table")
+    a.classList.add("input1")
+    document.getElementById("maintable").style.backgroundColor = "black" 
+ }
