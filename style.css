@@ -136,6 +136,9 @@ table {
 .color2{
     background-color: rgb(47, 43, 43);
 }
+.change{
+    color: white;
+}
 
 @media screen and (max-width: 450px) {
     table{

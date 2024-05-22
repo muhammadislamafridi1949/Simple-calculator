@@ -51,5 +51,8 @@ function darks(color) {
     })
     const a =  document.getElementById("table")
     a.classList.add("input1")
+    document.querySelectorAll(".c").forEach(element => {
+        element.classList.add("change");
+    })
     document.getElementById("maintable").style.backgroundColor = "black" 
  }
