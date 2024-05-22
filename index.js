@@ -21,7 +21,9 @@ function dark(color) {
  const a =  document.getElementById("table")
  a.classList.remove("input1")
  document.getElementById("maintable").style.backgroundColor = "#e8f5e9" 
-
+ document.querySelectorAll(".c").forEach(element => {
+    element.classList.remove("change");
+})
 }
 
 function cacuLate() {
