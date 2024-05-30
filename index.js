@@ -23,6 +23,7 @@ function dark(color) {
  document.getElementById("maintable").style.backgroundColor = "#e8f5e9" 
  document.querySelectorAll(".c").forEach(element => {
     element.classList.remove("change");
+    document.getElementById("colordiv").classList.remove("colordiv")
 })
 }
 
@@ -57,4 +58,6 @@ function darks(color) {
         element.classList.add("change");
     })
     document.getElementById("maintable").style.backgroundColor = "black" 
+    document.getElementById("colordiv").classList.add("colordiv")
+    // document.getElementById("colordiv").style.backgroundColor = "black"
  }

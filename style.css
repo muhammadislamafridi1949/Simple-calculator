@@ -139,6 +139,10 @@ table {
 .change{
     color: white;
 }
+.colordiv{
+    background-color: black;
+}
+
 
 @media screen and (max-width: 450px) {
     table{
