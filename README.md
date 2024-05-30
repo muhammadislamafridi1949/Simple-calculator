@@ -1,1 +1,1 @@
-[web site lnk is here](https://muhammadislamafridi1949.github.io/simple-calculator/)
+[Deploy link click on it](https://muhammadislamafridi1949.github.io/simple-calculator/)
